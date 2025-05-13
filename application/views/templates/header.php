@@ -204,6 +204,12 @@
             <i class="far fa-circle nav-icon"></i>
             <p>Dosen</p>
           </a>
+        </li>`
+        <li class="nav-item">
+          <a href="<?= base_url('berita') ?>" class="nav-link">
+            <i class="far fa-circle nav-icon"></i>
+            <p>Berita</p>
+          </a>
         </li>
 
       <?php elseif ($this->session->userdata('role') === 'user'): ?>
